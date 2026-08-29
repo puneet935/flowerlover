@@ -1,0 +1,182 @@
+
+*{
+/* font-family: "Lucida Handwriting", cursive; */
+/* font-family: "Sofia", sans-serif; */
+  font-family: Geneva, Verdana, sans-serif;
+  /* text-shadow: 2px 2px 2px #ababab;  */
+
+}
+.logo{
+    font-size: 35px;
+    color:  #eb0000;
+    text-decoration: none;
+     font-family: "Sofia", sans-serif;
+}
+.navbar{
+    background-color:rgb(253 246 213) !important;
+}
+.nav-link{
+    color: #ff0303;
+    border-radius: 25px;
+}
+.nav-link:focus, .nav-link:hover {
+    color:  #267c04;
+    text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.575);
+    background-color:rgb(252, 211, 62);
+    border-radius: 25px;
+}
+.border-bottom {
+    border-top: var(--bs-border-width) var(--bs-border-style) #257962 !important;
+    border-bottom:var(--bs-border-width) var(--bs-border-style)#257962 !important;
+}
+
+.banner {
+    background-color:rgb(253 246 213) !important;
+    opacity:35px;
+    text-size: 10px;
+}
+.bg-warning-subtle {
+    background-color:rgb(253 246 213) !important;
+}
+.choice button {
+    color: #eb0000;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: #ff0000;
+    background-color: var(--bs-btn-active-bg);
+    border-color: var(--bs-btn-active-border-color);
+}
+.banner_h{
+    font-family: Papyrus, fantasy;
+    color: rgb(223 5 5);
+    text-shadow: 3px 2px 5px rgb(18, 17, 17);
+}
+
+.btn-outline-warning {
+    --bs-btn-color: #ffc107;
+    --bs-btn-border-color: #ffc107;
+    --bs-btn-hover-color: #f54393;
+    --bs-btn-hover-bg: #ffc107;
+    --bs-btn-hover-border-color: #ffc107;
+    --bs-btn-focus-shadow-rgb: 255, 193, 7;
+    --bs-btn-active-color:  #f54393;
+    --bs-btn-active-bg: #ffc107;
+    --bs-btn-active-border-color: #ffc107;
+    --bs-btn-active-shadow: inset 0 3px 5px  #f54393;
+    --bs-btn-disabled-color: #ffc107;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #ffc107;
+    --bs-gradient: none;
+}
+
+.btn-outline-secondary {
+    --bs-btn-color: #f50101;
+    --bs-btn-border-color: #fdd002;
+    --bs-btn-hover-bg: #f50101;
+}
+.btn-outline-primary {
+    --bs-btn-color: #fb1900;
+    --bs-btn-border-color: #fdd002;
+    --bs-btn-hover-color: #f51414;
+    --bs-btn-hover-bg: #fdd002;
+    --bs-btn-hover-border-color:none;
+    --bs-btn-active-bg: ;
+    --bs-btn-active-border-color: #e60303;
+    /* --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); */
+    --bs-btn-disabled-color: #ef0606;
+    /* --bs-btn-disabled-bg: transparent; */
+    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-gradient: none;
+    
+}
+
+.bg-warning {
+    --bs-bg-opacity: 1;
+    background-color: rgb(237 214 143) !important;
+}
+
+.btn-outline-warning {
+    --bs-btn-color: #ffc107;
+    --bs-btn-border-color: #ffc107;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #ffc107;
+    --bs-btn-hover-border-color: #ffc107;
+    --bs-btn-focus-shadow-rgb: 255, 193, 7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #ffc107;
+    --bs-btn-active-border-color: #ffc107;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #ffc107;
+    --bs-btn-disabled-bg: transparent;
+    /* --bs-btn-disabled-border-color: #ffc107; */
+    --bs-gradient: none;
+}
+
+.btn {
+    color: #dc3545;
+}
+.card {
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x
+1rem
+: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: none;
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--bs-body-color);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: none;
+    border-radius:none; 
+}
+.product1{
+    background-color:#ababaab;
+    
+}
+.marriage{
+    background-color: #fddb314d;
+}
+.pooja{
+     background-color: #f97c2862; 
+}
+.gift{
+     background-color: #f2dac962; 
+}
+.type{
+     background-image: url(../img/bg1.png); 
+}
+.quality{
+    background-image: url(../img/bg5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+.aboutus{
+background-image: url(../img/bg3.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 0rch;
+}
+
+
+
